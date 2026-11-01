@@ -1,0 +1,6 @@
+# Observed OCR environment; not a full environment lock.
+# Install system packages separately:
+# tesseract-ocr tesseract-ocr-ben tesseract-ocr-eng
+#
+# Observed Tesseract version: 5.3.4
+pytesseract==0.3.13

@@ -1,0 +1,17 @@
+{
+  "engine": "tesseract",
+  "language": "ben+eng",
+  "oem": 1,
+  "psm": 11,
+  "timeout_seconds": 60,
+  "preprocessing": {
+    "exif_orientation": true,
+    "color_mode": "RGB",
+    "resize": false
+  },
+  "paths": {
+    "candidate_manifest": null,
+    "output_directory": null
+  },
+  "status": "baseline configuration; manual-reference evaluation pending"
+}

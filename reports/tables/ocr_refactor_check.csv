@@ -1,0 +1,7 @@
+check,value,scope
+processed_candidates,20,development set
+nonempty_outputs,20,not accuracy
+recognized_tokens,408,OCR token count
+exact_text_matches,20/20,notebook versus module
+word_count_matches,20/20,notebook versus module
+changed_text_ids,0,notebook versus module

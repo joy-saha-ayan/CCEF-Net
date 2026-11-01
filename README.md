@@ -31,4 +31,35 @@ CCEF-Net is a multimodal, evidence-grounded, and explainable framework for detec
 
 ## Status
 
-Project setup phase.
+Active development: reusable OCR baseline verified; full CCEF-Net implementation and evaluation pending.
+
+<!-- BEGIN CCEF VERIFIED DEVELOPMENT STATUS -->
+
+## Verified development status
+
+The full CCEF-Net architecture is under development.
+
+Implemented and checked:
+- Reusable Bengali+English Tesseract OCR module and CLI.
+- Three OCR utility tests passed.
+- On 20 development images, modular OCR matched notebook text and
+  word counts for all 20 samples.
+
+Not yet established:
+- OCR transcription accuracy.
+- Adjudicated Bengali misinformation benchmark.
+- Effectiveness of cultural context or evidence fusion.
+- Final CCEF-Net classification performance.
+
+## Development documentation
+
+- [OCR setup and usage](docs/ocr_usage.md)
+- [Target architecture](docs/architecture.md)
+- [Experiment status and limitations](docs/experiment_status.md)
+- [Data sources and attribution](docs/data_sources.md)
+
+Canonical source layout: `src/ccef_net/`.
+Root-level baseline scripts and legacy requirements are retained for
+historical continuity; they are not the current OCR setup instructions.
+
+<!-- END CCEF VERIFIED DEVELOPMENT STATUS -->

@@ -1,0 +1,5 @@
+# Direct-package pins observed in the working OCR runtime.
+# Not a complete transitive or OS environment lock.
+pytesseract==0.3.13
+pandas==2.2.3
+Pillow==11.3.0

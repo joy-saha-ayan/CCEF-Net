@@ -19,3 +19,35 @@ outputs/
 *.pth
 wandb/
 mlruns/
+
+# BEGIN CCEF-NET LOCAL ARTIFACTS
+/data/
+/models/
+/outputs/
+.env
+.env.*
+!.env.example
+secrets/
+credentials*.json
+service-account*.json
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+/build/
+/dist/
+.cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.zip
+*.tar
+*.tar.gz
+# END CCEF-NET LOCAL ARTIFACTS
+
+# Reviewed, non-sensitive verification summary
+!/reports/tables/ocr_refactor_check.csv
